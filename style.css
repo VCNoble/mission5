@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family: poppins;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body{
+    margin: 0%;
+    background: white;   
+}
+
+section.section-1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background-color: white;
+	padding-right: 20px;
+}
+
+.block-1{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+section.section-2{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+section.section-2.logo {
+    position:absolute;
+    top:0px;
+    left: 0px;
+    font-size: 10px;
+    height:25px;
+    width:750px;
+}
+
+div.phone-apointment{
+    display: flex;
+    align-items: center;
+}
+div.phone-number{
+    font-size: 16px;
+    padding: 10px 10px;
+    padding-top: 10px;
+
+}
+
+
+div.phone-number i{
+    transform: rotateY(180deg);
+}
+
+.searchBox {
+    background-color: rgb(214, 214, 214);
+    padding: 0px 5px;
+}
+
+.searchBox input{
+    background-color: transparent;
+    border: none;
+}
+
+.searchBox button{
+    background-color: transparent;
+    border: none;
+}
+
+div.appointment button{
+    font-size: 18px;
+    color: black;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0px 15px;
+    transition: box-shadow 0.5s;
+    border: 1px solid rgb(0, 167, 209);
+}
+
+div.appointment button:hover{
+    box-shadow: 0px 0px 10px blue;
+}
+
+.mainDIV{
+    position:relative;
+    width:100%;
+    min-width:315px;
+}
+.leftDIV{
+    position:absolute;
+    top:0px;
+    left:48px;
+    font-size: 10px;
+    height:25px;
+    width:750px;
+}
+.middleDIV{
+    height:25px;
+    width:425px;
+    font-size: 10px;
+    text-decoration: underline;
+    margin:0px auto;
+    font-style: bold;
+}
+
+.bottom_nav{
+	width: 100%;
+	background-color: #0066b2;
+	height: 45px;
+}
+ .bottom_nav ul{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+ .bottom_nav ul li a{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.bottom_nav :hover{
+        color: #9ACD32;
+        transition: .4s;
+ }
+      .hover:hover {
+        --_p: 0%;
+      }
+
+.homepage{
+    max-width: 100%;
+}
+.box_home{    
+    font-weight: 400px;
+    height: 200px;
+    margin: 100px auto;
+    background-color: #AFEEEE;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    max-width: 550px;
+    border-radius: 10px;
+    
+}
+.box_home h2{
+    text-align: center;
+}
+.box_home p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.banner{
+    position: fixed;
+}
+
+
+.home_chat_side{
+    position: absolute;
+    right: 0;
+    bottom: 25%;
+    display: flex;
+    gap: 50px;
+}
+
+.to_home{
+    
+    background-color: #3dc6fc;
+    padding: 5px 15px;
+    border-radius: 5px;
+    position:initial;
+}
+
+.to_home a {
+    color: white;
+}
+
+.chat{
+    background-color: #3dc6fc;
+    width: 50px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 1px;
+}
+
+.img_chat{
+    width: 38px !important;
+    height: 38px !important;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.icon{
+    width: 38px !important;
+    height: 38px !important;
+    transform: scale(70%);
+}
+
+
+.banner img{
+    width: 100%;
+    height: 500px;
+}
+
+/*Footer*/
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.second_footer{
+    background: #7CB9E8;
+    width: 100%;
+    height: 10px;
+}
+.footer{
+	background-color: #13274F;
+    padding: 10px 0;
+    color: white;
+}
+.footer-col{
+   width: 20%;
+   padding-left: 30px;
+   padding-bottom: 15px;
+}
+.footer-col h8{
+	font-size: 15px;
+    padding-bottom: 50px;
+}
+
+.footer-col ul li a{
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+
