@@ -169,7 +169,7 @@ div.appointment button:hover{
 .home_chat_side{
     position: absolute;
     right: 0;
-    bottom: 25%;
+    bottom: 18%;
     display: flex;
     gap: 50px;
 }
