@@ -132,10 +132,6 @@ div.appointment button:hover{
         color: #9ACD32;
         transition: .4s;
  }
-      .hover:hover {
-        --_p: 0%;
-      }
-
 .homepage{
     max-width: 100%;
 }
@@ -150,7 +146,6 @@ div.appointment button:hover{
     justify-content: center;
     max-width: 550px;
     border-radius: 10px;
-    
 }
 .box_home h2{
     text-align: center;
@@ -159,8 +154,6 @@ div.appointment button:hover{
     text-align: center;
     font-size: 12px;
 }
-
-
 .banner{
     position: fixed;
 }
@@ -169,7 +162,7 @@ div.appointment button:hover{
 .home_chat_side{
     position: absolute;
     right: 0;
-    bottom: 18%;
+    bottom: 30%;
     display: flex;
     gap: 50px;
 }
